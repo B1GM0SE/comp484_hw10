@@ -179,3 +179,47 @@
       width: 100%;
     }
   }
+
+  /* ADDED FOR HW10 */
+
+.devtools-panel {
+  margin-top: 24px;
+  padding: 12px;
+  border: 2px dashed #a879d6;
+  border-radius: 12px;
+  background: #fbf5ff;
+  font-size: 0.9rem;
+}
+
+.devtools-panel summary {
+  cursor: pointer;
+  color: #6e3f9c;
+  font-weight: bold;
+}
+
+.debug-button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.debug-button-container button {
+  padding: 8px 10px;
+  border: 1px solid #a879d6;
+  border-radius: 8px;
+  background: #fff;
+  color: #5d3a82;
+  cursor: pointer;
+}
+
+.debug-button-container button:hover {
+  background: #f0dcff;
+}
+
+.debug-status {
+  margin: 12px 0 0;
+  padding: 8px;
+  border-radius: 8px;
+  background: #fff;
+  color: #5d3a82;
+}
